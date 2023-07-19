@@ -18,17 +18,17 @@ $smarty->caching = true;
 $smarty->cache_lifetime = 120;
 
 // Assigning a value to a variable
-$smarty->assign("name", "Deeksha"); 
+$smarty->assign("name", "Aman"); 
 
 // Creating an array
 $users = array(
-    array("name" => "Deeksha", 
+    array("name" => "Aman", 
            "department" => "CS"), 
     
-    array("name" => "Manya",
+    array("name" => "Aaditya",
            "department" => "CS"),
 
-    array('name' => 'Sandhya', 
+    array('name' => 'Arsh', 
           'department' => 'CS'),
     
     array('name' => 'Bhanu', 
@@ -36,7 +36,7 @@ $users = array(
 );
 
 $user2 = array(
-       array("name" => "Deeksha", 
+       array("name" => "Aman", 
              "role" => "Web Developer"
        )
 ); 
