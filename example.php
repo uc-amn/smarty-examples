@@ -4,23 +4,10 @@
  *
  * @package Example-application
  */
-<<<<<<< HEAD
-require 'libs/Smarty.class.php';
-$smarty = new Smarty;
-=======
 require '../libs/Smarty.class.php';
-//error_reporting(E_ALL);
-//ini_set('display_errors','On');
-//$smarty->debugging_ctrl = ($_SERVER['SERVER_NAME'] == 'localhost') ? 'URL' : 'NONE';
+
 $smarty = new Smarty; // declare object in Smarty 
-$smarty->allow_php_templates = true;
-$smarty->setCaching(Smarty::CACHING_LIFETIME_CURRENT);
-//$smarty->auto_literal = false;
-$smarty->force_compile = true;
-$smarty->debugging = false;
-$smarty->caching = true;
-$smarty->cache_lifetime = 120;
->>>>>>> b44947f4da91480b62260c61b8eb12acf49be547
+
 
 // Assigning a value to a variable
 $smarty->assign("name", "Aman"); 
